@@ -3,10 +3,10 @@ import React from "react"
 import bigLogo from "../images/full-logo.png"
 
 const PageBreaker = () => (
-    <div class="container mx-auto text-center">
-        <p> En del av </p>
-        <img className="fill-current h-8 w-9 mr-2" width="auto" height="auto" src={bigLogo} />
-        <p> justarrived.se </p>
+    <div className="container mx-auto text-center">
+        <p className="italic m-0 pt-3"> En del av </p>
+        <img className="fill-current h-8 w-9 mr-2 -mb-1" width="auto" height="auto" src={bigLogo} />
+        <p className="italic m-0 pb-3"> justarrived.se </p>
     </div>
 )
 

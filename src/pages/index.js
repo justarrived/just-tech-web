@@ -12,16 +12,16 @@ import PageBreaker from "../components/pageBreaker";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`justtech`, `application`]} />
-    <div className="image-shadow text-center py-32" style={{
+    <div className="image-shadow text-center py-32 text-white" style={{
        backgroundImage: `url(${landingImg})`,
        backgroundRepeat: "no-repeat",
        backgroundSize: "cover",
       }}>
     <img src={logo} />
-    <h1 className="text-white"> Just Tech </h1>
-    <p className="text-white"> Matchar utrikesfödda topptalanger </p>
-    <p className="text-white"> inom IT med arbetsmarknaden </p>
-    <p className="text-white"> Start Q1 2019 </p>
+    <h1 className="m-0"> Just Tech </h1>
+    <p className="m-0"> Matchar utrikesfödda topptalanger </p>
+    <p className="m-0"> inom IT med arbetsmarknaden </p>
+    <p className="m-0"> Start Q1 2019 </p>
     </div>
     <PageBreaker />
     <ContactUsForm />
