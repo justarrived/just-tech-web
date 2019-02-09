@@ -1,4 +1,5 @@
 import React from "react"
+import { Parallax } from "react-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,17 +13,21 @@ import PageBreaker from "../components/pageBreaker";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`justtech`, `application`]} />
-    <div className="image-shadow text-center py-32 text-white" style={{
-       backgroundImage: `url(${landingImg})`,
-       backgroundRepeat: "no-repeat",
-       backgroundSize: "cover",
-      }}>
-    <img src={logo} />
-    <h1 className="m-0"> Just Tech </h1>
-    <p className="m-0"> Matchar utrikesfödda topptalanger </p>
-    <p className="m-0"> inom IT med arbetsmarknaden </p>
-    <p className="m-0"> Start Q1 2019 </p>
-    </div>
+    <Parallax
+            blur={1}
+            bgImage={landingImg}
+            bgImageAlt="tech"
+            strength={600} 
+        >
+      <div className="image-shadow text-center py-32 text-white" >
+        <img src={logo} />
+        <h1 className="m-0"> Just Tech </h1>
+        <p className="m-0"> Matchar utrikesfödda topptalanger </p>
+        <p className="m-0"> inom IT med arbetsmarknaden </p>
+        <p className="m-0"> Start Q1 2019 </p>
+      </div>
+    {/* </div> */}
+    </Parallax>
     <PageBreaker />
     <ContactUsForm />
   </Layout>
