@@ -17,7 +17,7 @@ const IndexPage = () => (
             blur={1}
             bgImage={landingImg}
             bgImageAlt="tech"
-            strength={600} 
+            strength={400} 
         >
       <div className="image-shadow text-center py-32 text-white" >
         <img src={logo} />
