@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Museo;
+  src: local('Museo'), url(../fonts/Museo/museo-300.otf) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Museo;
+  src: local('Museo'), url(../fonts/Museo/museo-500.otf) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Museo;
+  src: local('Museo'), url(../fonts/Museo/museo-700.otf) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Light.ttf) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Regular.ttf) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Bold.ttf) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
