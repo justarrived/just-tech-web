@@ -13,7 +13,7 @@ const ContactusForm = () => (
           <li> Full Stack </li>
       </ul>
       <p> För mer information kontakta Andreas König:</p>
-      <p><span>andreas@justarrived.se </span>0733-86 86 56</p>
+      <p><a href="mailto:andreas@justarrived.se">andreas@justarrived.se</a> 0733-86 86 56</p>
       </div>
     </div>
     <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 pl-2 pr-2">
