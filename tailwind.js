@@ -47,7 +47,7 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
-  'grey-darkest': '#3d4852',
+  'grey-darkest': '#222530',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
   'grey': '#383F4E', // same as design documents
