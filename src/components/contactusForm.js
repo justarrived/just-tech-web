@@ -1,6 +1,7 @@
 import React from "react"
 import "./contactus.css"
 
+
 const ContactusForm = () => (
   <div className="grid">
     <div className="form-gradient flex flex-wrap lg:p-10 lg:pb-0 md:p-8 p-2 bg-grey pt-10 py-3">
@@ -17,21 +18,21 @@ const ContactusForm = () => (
         </div>
       </div>
       <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 pl-2 pr-2">
-        <form>
+        <form data-netlify="true" name="contactus" method="POST">
           <div className="flex flex-wrap justify-end">
             <div className="lg:w-1/2 md:w-1/2 w-full">
               <div className="sixteen wide column single-input-container">
                 <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Namn" />
+                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Namn" name="Namn" />
                 </div>
                 <div className="p-2">
                   <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Foretag" />
                 </div>
                 <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Epost" />
+                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Epost" name="Epost" />
                 </div>
                 <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Telefonnummer" />
+                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Telefonnummer" name="Telefonnummer" />
                 </div>
               </div>
             </div>
@@ -43,7 +44,7 @@ const ContactusForm = () => (
               </div>
             </div>
             <div className="w-20 p-2">
-              <button className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline">Skicka</button>
+              <button className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" type="submit">Skicka</button>
             </div>
           </div>
         </form>
