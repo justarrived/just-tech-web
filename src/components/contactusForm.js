@@ -3,7 +3,7 @@ import "./contactus.css"
 
 const ContactusForm = () => ( 
 <div className="grid">
- <div className="form-gradient flex flex-wrap lg:p-10 md:p-8 p-2 bg-grey pt-10 py-3">
+ <div className="form-gradient flex flex-wrap lg:p-10 lg:pb-0 md:p-8 p-2 bg-grey pt-10 py-3">
     <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 px-4 py-3">
       <div className="text-white">
       <p className="font-bold">Vi tillhandahåller topptalang inom mjukvaruutveckling </p>
