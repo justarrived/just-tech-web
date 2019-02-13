@@ -4,38 +4,38 @@
 
 @font-face {
   font-family: Museo;
-  src: local('Museo'), url(../fonts/Museo/museo-300.otf) format('woff');
+  src: local('Museo'), url(../fonts/Museo/museo-300.otf) format('opentype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: Museo;
-  src: local('Museo'), url(../fonts/Museo/museo-500.otf) format('woff');
+  src: local('Museo'), url(../fonts/Museo/museo-500.otf) format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: Museo;
-  src: local('Museo'), url(../fonts/Museo/museo-700.otf) format('woff');
+  src: local('Museo'), url(../fonts/Museo/museo-700.otf) format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Light.ttf) format('woff');
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: OpenSans;
-  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Regular.ttf) format('woff');
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: OpenSans;
-  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Bold.ttf) format('woff');
+  src: local('OpenSans'), url(../fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
