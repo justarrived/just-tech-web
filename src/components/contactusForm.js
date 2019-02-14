@@ -39,7 +39,7 @@ const ContactusForm = () => (
               <div className="p-2 h-full">
                 <textarea
                   className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline h-full bg-transparent focus:bg-white"
-                  type="text" name="description" id="mce-DESCRIPTION" required placeholder="What do you need help with?"></textarea>
+                  type="text" name="description" id="mce-DESCRIPTION" required placeholder="Beskriv gärna kort ditt personalbehov"></textarea>
               </div>
             </div>
             <div className="w-20 p-2">
