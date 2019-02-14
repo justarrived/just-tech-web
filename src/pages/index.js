@@ -19,9 +19,9 @@ const IndexPage = () => (
             bgImageAlt="tech"
             strength={400} 
         >
-      <div className="image-shadow text-center py-32 text-white" >
+      <div className="image-shadow text-center py-32 text-white font-sans" >
         <img src={logo} />
-        <h1 className="m-0"> Just Tech </h1>
+        <h1 className="m-0 font-bold"> Just Tech </h1>
         <p className="m-0"> Matchar utrikesfödda topptalanger </p>
         <p className="m-0"> inom IT med arbetsmarknaden </p>
         <p className="m-0"> Start Q1 2019 </p>
