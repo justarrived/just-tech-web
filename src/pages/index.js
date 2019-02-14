@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 
-import landingImg from "../images/landing.png"
+import landingImg from "../images/landing1.png"
 import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
