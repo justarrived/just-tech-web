@@ -32,7 +32,7 @@ const IndexPage = () => (
           <b>Start Q1 2019</b>
         </p>
 
-        <div class="m-3" style={{background: "white", height: "8px", margin: "auto", width: "24px"}}></div>
+        <div class="m-auto bg-white h-2 w-6"></div>
       </div>
       {/* </div> */}
     </Parallax>
