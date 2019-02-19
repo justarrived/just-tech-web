@@ -19,6 +19,7 @@ const ContactusForm = () => (
       </div>
       <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 pl-2 pr-2">
         <form data-netlify="true" name="contactus" method="POST">
+          <input type="hidden" name="form-name" value="contactus" />
           <div className="flex flex-wrap justify-end">
             <div className="lg:w-1/2 md:w-1/2 w-full">
               <div className="sixteen wide column single-input-container">
