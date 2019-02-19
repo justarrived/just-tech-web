@@ -20,11 +20,19 @@ const IndexPage = () => (
       strength={400}
     >
       <div className="image-shadow text-center py-32 text-white" >
-        <img src={logo} />
-        <h1 className="m-0 font-bold"> Just Tech </h1>
-        <p className="m-0"> Matchar utrikesfödda topptalanger </p>
-        <p className="m-0"> inom IT med arbetsmarknaden </p>
-        <p className="m-0"> Start Q1 2019 </p>
+        <img src={logo} alt="Just logo"/>
+
+        <h1 className="m-0"> Just<b>Tech</b> </h1>
+
+        <p className="m-4">
+          Matchar utrikesfödda topptalanger<br/>
+          inom IT med arbetsmarknaden
+        </p>
+        <p className="m-4">
+          <b>Start Q1 2019</b>
+        </p>
+
+        <div class="m-auto bg-white h-2 w-6"></div>
       </div>
       {/* </div> */}
     </Parallax>
