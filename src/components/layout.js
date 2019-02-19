@@ -2,9 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-// import Header from "./header"
+import Menu from "./menu"
 import Footer from "./footer"
 import "./layout.css"
+import "../fonts/just-arrived-style-guide-icons/css/icons.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,17 +19,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-        <div
-          style={{
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-          <Footer />
-        </div>
-      </>
+      <div id="outer-container" style={{ height: '100%' }}>
+        <Menu siteTitle={data.site.siteMetadata.title} />
+        <main id="page-wrap">
+          {children}
+        </main>
+        <Footer />
+      </div>
     )}
   />
 )
