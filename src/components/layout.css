@@ -1,3 +1,4 @@
+@import url("../fonts/just-arrived-style-guide-icons/css/icons.css");
 @font-face {
   font-family: Museo;
   src: local('Museo'), url(../fonts/Museo/museo-300.otf) format('opentype');
@@ -240,7 +241,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: OpenSans, georgia, serif;
+  font-family: OpenSans, Fontello;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
