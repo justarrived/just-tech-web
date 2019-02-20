@@ -7,6 +7,7 @@ import "./index.css"
 
 import landingImg from "../images/landing.png"
 import computer from "../images/blake-connally-373084-unsplash.jpg"
+import engineers from "../images/alvaro-reyes-500044-unsplash.jpg"
 import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
@@ -54,6 +55,15 @@ const IndexPage = () => (
     </Parallax>
 
     <Tech/>
+
+    <Parallax
+      bgImage={engineers}
+      bgImageStyle={{top: "-100%"}}
+      bgImageAlt="Engineers"
+      strength={100}
+    >
+      <div style={{height: "300px"}}/>
+    </Parallax>
 
     <ContactUsForm />
   </Layout>
