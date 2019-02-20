@@ -16,6 +16,7 @@ const HeaderMenu = ({ siteTitle }) => (
           Hem
         </Link>
       </div>
+
       <div className="menu-item">
         <a
           href="https://github.com/justarrived/just-tech-web/wiki/"
@@ -23,6 +24,16 @@ const HeaderMenu = ({ siteTitle }) => (
           className="menu-item-link"
         >
           Wiki
+        </a>
+      </div>
+
+      <div className="menu-item">
+        <a
+          href="https://justarrived.se/"
+          target="_blank"
+          className="menu-item-link"
+        >
+          JustArrived
         </a>
       </div>
     </div>
