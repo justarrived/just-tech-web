@@ -34,7 +34,6 @@ const IndexPage = () => (
 
         <div class="m-auto bg-white h-2 w-6"></div>
       </div>
-      {/* </div> */}
     </Parallax>
     <PageBreaker />
     <ContactUsForm />
