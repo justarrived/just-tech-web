@@ -47,22 +47,22 @@ const IndexPage = () => (
 
     <Parallax
       bgImage={computer}
-      bgImageStyle={{top: "-100%"}}
+      bgImageStyle={{height: "500px"}}
       bgImageAlt="Laptop computer"
       strength={100}
     >
-      <div style={{height: "300px"}}/>
+      <div style={{height: "400px"}}/>
     </Parallax>
 
     <Tech/>
 
     <Parallax
       bgImage={engineers}
-      bgImageStyle={{top: "-100%"}}
+      bgImageStyle={{height: "500px"}}
       bgImageAlt="Engineers"
       strength={100}
     >
-      <div style={{height: "300px"}}/>
+      <div style={{height: "400px"}}/>
     </Parallax>
 
     <ContactUsForm />
