@@ -46,9 +46,9 @@ const IndexPage = () => (
     <Upsell/>
 
     <Parallax
-      bgImage={computer}
+      bgImage={engineers}
       bgImageStyle={{height: "500px"}}
-      bgImageAlt="Laptop computer"
+      bgImageAlt="Engineers"
       strength={100}
     >
       <div style={{height: "400px"}}/>
@@ -57,9 +57,9 @@ const IndexPage = () => (
     <Tech/>
 
     <Parallax
-      bgImage={engineers}
+      bgImage={computer}
       bgImageStyle={{height: "500px"}}
-      bgImageAlt="Engineers"
+      bgImageAlt="Laptop computer"
       strength={100}
     >
       <div style={{height: "400px"}}/>
