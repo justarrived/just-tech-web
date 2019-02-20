@@ -9,6 +9,7 @@ import landingImg from "../images/landing2.png"
 import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
+import Upsell from "../components/upsell";
 
 const IndexPage = () => (
   <Layout>
@@ -37,6 +38,9 @@ const IndexPage = () => (
       {/* </div> */}
     </Parallax>
     <PageBreaker />
+
+    <Upsell/>
+
     <ContactUsForm />
   </Layout>
 )
