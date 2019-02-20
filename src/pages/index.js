@@ -1,11 +1,11 @@
 import React from "react"
-import { Parallax } from "react-parallax"
+import { Parallax, Background } from "react-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 
-import landingImg from "../images/landing2.png"
+import landingImg from "../images/landing.png"
 import computer from "../images/blake-connally-373084-unsplash.jpg"
 import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
@@ -17,7 +17,9 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`justtech`, `application`]} />
     <Parallax
       blur={1}
+      style={{background: "#000"}}
       bgImage={landingImg}
+      bgImageStyle={{opacity: ".2"}}
       bgImageAlt="tech"
       strength={400}
     >
