@@ -11,6 +11,7 @@ import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
 import Upsell from "../components/upsell";
+import Tech from "../components/tech";
 
 const IndexPage = () => (
   <Layout>
@@ -51,6 +52,8 @@ const IndexPage = () => (
     >
       <div style={{height: "300px"}}/>
     </Parallax>
+
+    <Tech/>
 
     <ContactUsForm />
   </Layout>
