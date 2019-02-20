@@ -19,7 +19,7 @@ const HeaderMenu = ({ siteTitle }) => (
       <div className="menu-item">
         <a
           href="https://github.com/justarrived/just-tech-web/wiki/"
-          target="blank"
+          target="_blank"
           className="menu-item-link"
         >
           Wiki
