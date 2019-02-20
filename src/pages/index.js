@@ -48,7 +48,7 @@ const IndexPage = () => (
     <Parallax
       bgImage={computer}
       bgImageStyle={{top: "-100%"}}
-      bgImageAlt="tech"
+      bgImageAlt="Laptop computer"
       strength={100}
     >
       <div style={{height: "300px"}}/>
