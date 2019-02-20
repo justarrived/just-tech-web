@@ -34,9 +34,6 @@ const IndexPage = () => (
           Matchar utrikesfödda topptalanger<br/>
           inom IT med arbetsmarknaden
         </p>
-        <p className="m-4">
-          <b>Start Q1 2019</b>
-        </p>
 
         <div class="m-auto bg-white h-2 w-6"></div>
       </div>
