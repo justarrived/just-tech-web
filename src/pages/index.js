@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import "./index.css"
 
 import landingImg from "../images/landing2.png"
+import computer from "../images/blake-connally-373084-unsplash.jpg"
 import logo from "../images/logo.png"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
@@ -39,6 +40,15 @@ const IndexPage = () => (
     <PageBreaker />
 
     <Upsell/>
+
+    <Parallax
+      bgImage={computer}
+      bgImageStyle={{top: "-100%"}}
+      bgImageAlt="tech"
+      strength={100}
+    >
+      <div style={{height: "300px"}}/>
+    </Parallax>
 
     <ContactUsForm />
   </Layout>
