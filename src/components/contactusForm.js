@@ -3,18 +3,12 @@ import "./contactus.css"
 
 
 const ContactusForm = () => (
-  <div className="grid">
-    <div className="form-gradient flex flex-wrap lg:p-10 lg:pb-0 md:p-8 p-2 bg-grey pt-10 py-3">
+  <div className="grid bg-black">
+    <div className="flex flex-wrap lg:p-10 lg:pb-0 md:p-8 p-2 pt-10 py-3">
       <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 px-4 py-3">
         <div className="text-white">
-          <p className="font-bold">Vi tillhandahåller topptalang inom mjukvaruutveckling </p>
-          <ul className="pl-3">
-            <li className="pl-4 m-0"> Front End </li>
-            <li className="pl-4 m-0"> Backend </li>
-            <li className="pl-4 m-0"> Full Stack </li>
-          </ul>
           <p className="m-0 font-bold"> För mer information kontakta Andreas König:</p>
-          <p className="m-0"><span>andreas@justarrived.se </span>0733-86 86 56</p>
+          <p className="m-0"><span>andreas@justarrived.se</span> | 0733-86 86 56</p>
         </div>
       </div>
       <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 pl-2 pr-2">
