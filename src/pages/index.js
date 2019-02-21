@@ -28,7 +28,7 @@ const IndexPage = () => (
     >
       <div className="image-shadow text-center py-32 text-white" >
         <img src={logoIcon} alt="JustTech Logo Icon"/><br/>
-        <img src={logoText} alt="JustTech Logo Text"/>
+        <img src={logoText} alt="JustTech Logo Text" className="m-4"/>
 
         <p className="m-4">
           Matchar utrikesfödda topptalanger<br />
