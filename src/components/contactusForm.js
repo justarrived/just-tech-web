@@ -17,29 +17,24 @@ const ContactusForm = () => (
           <div className="flex flex-wrap justify-end">
             <div className="lg:w-1/2 md:w-1/2 w-full">
               <div className="sixteen wide column single-input-container">
-                <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Namn" name="Namn" />
-                </div>
-                <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Foretag" />
-                </div>
-                <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Epost" name="Epost" />
-                </div>
-                <div className="p-2">
-                  <input className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline bg-transparent focus:bg-white" type="text" placeholder="Telefonnummer" name="Telefonnummer" />
-                </div>
+
+                {["Namd", "Foretag", "Epost", "Telefonnummer"].map((name, i) =>
+                  <div className="p-2">
+                    <input className="form-input" type="text" placeholder={name} name={name} />
+                  </div>
+                )}
+
               </div>
             </div>
             <div className="lg:w-1/2 md:w-1/2 w-full">
               <div className="p-2 h-full">
                 <textarea
-                  className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline h-full bg-transparent focus:bg-white"
+                  className="form-input h-full"
                   type="text" name="description" id="mce-DESCRIPTION" required placeholder="Beskriv gärna kort ditt personalbehov"></textarea>
               </div>
             </div>
             <div className="w-20 p-2">
-              <button className="shadow appearance-none border rounded w-full py-2 lg:px-3 px-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" type="submit">Skicka</button>
+              <button className="form-input" type="submit">Skicka</button>
             </div>
           </div>
         </form>

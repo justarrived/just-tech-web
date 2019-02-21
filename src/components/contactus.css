@@ -1,5 +1,13 @@
+.form-input {
+    @apply border rounded w-full py-2 px-2 text-grey-darker leading-tight bg-transparent;
+}
 
-.form-gradient {
-    background-image: linear-gradient(to right,#164555,#15489B);
-    opacity: .8;
+.form-input:focus {
+     @apply outline-none shadow-outline bg-white;
+}
+
+@screen lg { 
+    .form-input { 
+        @apply px-3; 
+    }
 }
