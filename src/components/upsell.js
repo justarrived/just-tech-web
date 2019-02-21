@@ -1,12 +1,10 @@
 import React from "react"
 
-import bigLogo from "../images/full-logo.png"
-
 const Upsell = () => (
-    <div className="mx-auto text-center bg-black p-10">
-        <h1 className="text-4xl text-white leading-normal">
-            Vi hjälper er<br/>
-            hitta topptalang och<br/>
+    <div className="comp-section-container">
+        <h1 className="comp-section-header">
+            Vi hjälper er<br />
+            hitta topptalang och<br />
             diversifiera era team
         </h1>
     </div>

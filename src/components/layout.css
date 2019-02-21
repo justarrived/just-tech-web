@@ -1,4 +1,5 @@
 @import url("../fonts/just-arrived-style-guide-icons/css/icons.css");
+@import url("./cssComponents/index.css");
 @font-face {
   font-family: Museo;
   src: local('Museo'), url(../fonts/Museo/museo-300.otf) format('opentype');

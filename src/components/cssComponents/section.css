@@ -1,0 +1,7 @@
+.comp-section-container {
+    @apply mx-auto text-center bg-black p-10;
+}
+
+.comp-section-header {
+    @apply text-4xl text-white leading-normal;
+}
