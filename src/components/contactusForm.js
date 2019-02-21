@@ -18,7 +18,7 @@ const ContactusForm = () => (
               <div className="sixteen wide column single-input-container">
 
                 {["Namn", "Foretag", "Epost", "Telefonnummer"].map((name, i) =>
-                  <div className="p-2">
+                  <div key={`${name}-wrapper`} className="p-2">
                     <input className="comp-form-input" type="text" placeholder={name} name={name} />
                   </div>
                 )}
