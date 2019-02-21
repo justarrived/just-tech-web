@@ -20,6 +20,7 @@ const HeaderMenu = ({ siteTitle }) => (
       <div className="menu-item">
         <a
           href="https://github.com/justarrived/just-tech-web/wiki/"
+          rel="noopener noreferrer"
           target="_blank"
           className="menu-item-link"
         >
@@ -30,6 +31,7 @@ const HeaderMenu = ({ siteTitle }) => (
       <div className="menu-item">
         <a
           href="https://justarrived.se/"
+          rel="noopener noreferrer"
           target="_blank"
           className="menu-item-link"
         >
