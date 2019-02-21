@@ -1,0 +1,13 @@
+.comp-form-input {
+    @apply border rounded w-full py-2 px-2 text-grey-darker leading-tight bg-transparent;
+}
+
+.comp-form-input:focus {
+     @apply outline-none shadow-outline bg-white;
+}
+
+@screen lg { 
+    .comp-form-input { 
+        @apply px-3; 
+    }
+}
