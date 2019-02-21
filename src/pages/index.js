@@ -8,7 +8,8 @@ import "./index.css"
 import landingImg from "../images/landing.png"
 import computer from "../images/blake-connally-373084-unsplash-1280.jpg"
 import engineers from "../images/alvaro-reyes-500044-unsplash-1280.jpg"
-import logo from "../images/logo.png"
+import logoIcon from "../images/logo.png"
+import logoText from "../images/justtech-text-logo.svg"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
 import Upsell from "../components/upsell";
@@ -26,9 +27,8 @@ const IndexPage = () => (
       strength={400}
     >
       <div className="image-shadow text-center py-32 text-white" >
-        <img src={logo} alt="Just logo" />
-
-        <h1 className="m-0 text-4xl my-3 pt-3"> Just<b>Tech</b> </h1>
+        <img src={logoIcon} alt="JustTech Logo Icon"/><br/>
+        <img src={logoText} alt="JustTech Logo Text"/>
 
         <p className="m-4">
           Matchar utrikesfödda topptalanger<br />
