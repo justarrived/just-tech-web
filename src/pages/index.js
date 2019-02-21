@@ -19,19 +19,19 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`justtech`, `application`]} />
     <Parallax
       blur={1}
-      style={{background: "#000"}}
+      style={{ background: "#000" }}
       bgImage={landingImg}
-      bgImageStyle={{opacity: ".2"}}
+      bgImageStyle={{ opacity: ".2" }}
       bgImageAlt="tech"
       strength={400}
     >
       <div className="image-shadow text-center py-32 text-white" >
-        <img src={logo} alt="Just logo"/>
+        <img src={logo} alt="Just logo" />
 
-        <h1 className="m-0"> Just<b>Tech</b> </h1>
+        <h1 className="m-0 text-4xl my-3 pt-3"> Just<b>Tech</b> </h1>
 
         <p className="m-4">
-          Matchar utrikesfödda topptalanger<br/>
+          Matchar utrikesfödda topptalanger<br />
           inom IT med arbetsmarknaden
         </p>
 
@@ -40,26 +40,26 @@ const IndexPage = () => (
     </Parallax>
     <PageBreaker />
 
-    <Upsell/>
+    <Upsell />
 
     <Parallax
       bgImage={engineers}
-      bgImageStyle={{height: "500px"}}
+      bgImageStyle={{ height: "500px" }}
       bgImageAlt="Engineers"
       strength={100}
     >
-      <div style={{height: "400px"}}/>
+      <div style={{ height: "400px" }} />
     </Parallax>
 
-    <Tech/>
+    <Tech />
 
     <Parallax
       bgImage={computer}
-      bgImageStyle={{height: "500px"}}
+      bgImageStyle={{ height: "500px" }}
       bgImageAlt="Laptop computer"
       strength={100}
     >
-      <div style={{height: "400px"}}/>
+      <div style={{ height: "400px" }} />
     </Parallax>
 
     <ContactUsForm />
