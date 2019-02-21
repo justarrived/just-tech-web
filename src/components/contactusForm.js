@@ -1,5 +1,4 @@
 import React from "react"
-import "./contactus.css"
 
 
 const ContactusForm = () => (
@@ -20,7 +19,7 @@ const ContactusForm = () => (
 
                 {["Namd", "Foretag", "Epost", "Telefonnummer"].map((name, i) =>
                   <div className="p-2">
-                    <input className="form-input" type="text" placeholder={name} name={name} />
+                    <input className="comp-form-input" type="text" placeholder={name} name={name} />
                   </div>
                 )}
 
@@ -29,12 +28,12 @@ const ContactusForm = () => (
             <div className="lg:w-1/2 md:w-1/2 w-full">
               <div className="p-2 h-full">
                 <textarea
-                  className="form-input h-full"
+                  className="comp-form-input h-full"
                   type="text" name="description" id="mce-DESCRIPTION" required placeholder="Beskriv gärna kort ditt personalbehov"></textarea>
               </div>
             </div>
             <div className="w-20 p-2">
-              <button className="form-input" type="submit">Skicka</button>
+              <button className="comp-form-input" type="submit">Skicka</button>
             </div>
           </div>
         </form>
