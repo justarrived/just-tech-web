@@ -15,6 +15,12 @@ const ContactusForm = () => (
         <p>Skriv in era detaljer så tar vi kontakt med er.</p>
 
         <div className="-m-4">
+          <iframe 
+            src="https://pages.upsales.com/9084u0a61f381e979430c882e0881569e6eee-frame" 
+            width="360" 
+            height="529" 
+            style={{border: 0}}>
+          </iframe>
           <iframe
             title="Upsales Contact Form"
             src="https://pages.upsales.com/9084u0a61f381e979430c882e0881569e6eee-frame"
