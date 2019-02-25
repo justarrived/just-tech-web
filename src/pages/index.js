@@ -14,6 +14,7 @@ import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
 import Upsell from "../components/upsell";
 import Tech from "../components/tech";
+import WhoWeAre from "../components/whoWeAre";
 
 const IndexPage = () => (
   <Layout>
@@ -61,6 +62,8 @@ const IndexPage = () => (
     >
       <div style={{ height: "400px" }} />
     </Parallax>
+
+    <WhoWeAre />
 
     <ContactUsForm />
   </Layout>
