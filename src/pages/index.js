@@ -12,8 +12,6 @@ import logoIcon from "../images/logo.png"
 import logoText from "../images/justtech-text-logo.svg"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
-import Upsell from "../components/upsell";
-import Tech from "../components/tech";
 
 const IndexPage = () => (
   <Layout>
@@ -40,7 +38,13 @@ const IndexPage = () => (
     </Parallax>
     <PageBreaker />
 
-    <Upsell />
+    <div className="comp-section-container">
+        <h1 className="comp-section-header">
+            Vi hjälper er<br />
+            hitta topptalang och<br />
+            diversifiera era team
+        </h1>
+    </div>
 
     <Parallax
       bgImage={engineers}
@@ -51,7 +55,13 @@ const IndexPage = () => (
       <div style={{ height: "400px" }} />
     </Parallax>
 
-    <Tech />
+    <div className="comp-section-container">
+        <h1 className="comp-section-header">
+            Våra konsulter<br />
+            är experter inom<br />
+            Backend, Frontend, och Mobile
+        </h1>
+    </div>
 
     <Parallax
       bgImage={computer}
