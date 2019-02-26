@@ -7,7 +7,7 @@ import "./index.css"
 
 import landingImg from "../images/landing.png"
 import computer from "../images/blake-connally-373084-unsplash-1280.jpg"
-import engineers from "../images/alvaro-reyes-500044-unsplash-1280.jpg"
+import engineers from "../images/smily-tech.jpg"
 import code from "../images/nesa-by-makers-1130747-unsplash-1280.jpg"
 import logoIcon from "../images/logo.png"
 import logoText from "../images/justtech-text-logo.svg"
@@ -50,7 +50,7 @@ const IndexPage = () => (
 
     <Parallax
       bgImage={engineers}
-      bgImageStyle={{ height: "500px" }}
+      bgImageStyle={{ height: "600px" }}
       bgImageAlt="Engineers"
       strength={100}
     >
