@@ -76,9 +76,10 @@ const IndexPage = () => (
 
     <div className="comp-section-container">
         <h1 className="comp-section-header">
-            Vi arbetar<br />
-            med tekniker såsom<br />
-            React, JavaScript, Java, PHP, Ruby
+            Vi arbetar med<br />
+            tekniker och språk som<br />
+            C#, Java, JavaScript, PHP, Python, Ruby<br />
+            <small>React, React Native, Angular, Vue, Spring</small>
         </h1>
     </div>
 
