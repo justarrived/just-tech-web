@@ -8,6 +8,7 @@ import "./index.css"
 import landingImg from "../images/landing.png"
 import computer from "../images/blake-connally-373084-unsplash-1280.jpg"
 import engineers from "../images/alvaro-reyes-500044-unsplash-1280.jpg"
+import code from "../images/nesa-by-makers-1130747-unsplash-1280.jpg"
 import logoIcon from "../images/logo.png"
 import logoText from "../images/justtech-text-logo.svg"
 import ContactUsForm from "../components/contactusForm"
@@ -72,6 +73,29 @@ const IndexPage = () => (
     >
       <div style={{ height: "400px" }} />
     </Parallax>
+
+    <div className="comp-section-container">
+        <h1 className="comp-section-header">
+            Vi arbetar<br />
+            med tekniker såsom<br />
+            React, JavaScript, Java, PHP, Ruby
+        </h1>
+    </div>
+
+    <Parallax
+      bgImage={code}
+      bgImageStyle={{ height: "500px" }}
+      bgImageAlt="Laptop computer"
+      strength={100}
+    >
+      <div style={{ height: "400px" }} />
+    </Parallax>
+
+    <div className="comp-section-container">
+        <h1 className="comp-section-header">
+            Tryggt och säkert för alla!
+        </h1>
+    </div>
 
     <ContactUsForm />
 
