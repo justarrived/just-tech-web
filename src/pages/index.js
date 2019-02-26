@@ -12,6 +12,7 @@ import logoIcon from "../images/logo.png"
 import logoText from "../images/justtech-text-logo.svg"
 import ContactUsForm from "../components/contactusForm"
 import PageBreaker from "../components/pageBreaker";
+import WhoWeAre from "../components/whoWeAre";
 
 const IndexPage = () => (
   <Layout>
@@ -73,6 +74,8 @@ const IndexPage = () => (
     </Parallax>
 
     <ContactUsForm />
+
+    <WhoWeAre />
   </Layout>
 )
 
