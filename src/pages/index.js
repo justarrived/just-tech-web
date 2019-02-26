@@ -54,7 +54,7 @@ const IndexPage = () => (
       bgImageAlt="Engineers"
       strength={100}
     >
-      <div style={{ height: "400px" }} />
+      <div className="image-shadow" style={{ height: "400px" }} />
     </Parallax>
 
     <div className="comp-section-container">
@@ -71,7 +71,7 @@ const IndexPage = () => (
       bgImageAlt="Laptop computer"
       strength={100}
     >
-      <div style={{ height: "400px" }} />
+      <div className="image-shadow" style={{ height: "400px" }} />
     </Parallax>
 
     <div className="comp-section-container">
@@ -88,7 +88,7 @@ const IndexPage = () => (
       bgImageAlt="Laptop computer"
       strength={100}
     >
-      <div style={{ height: "400px" }} />
+      <div className="image-shadow" style={{ height: "400px" }} />
     </Parallax>
 
     <div className="comp-section-container">
