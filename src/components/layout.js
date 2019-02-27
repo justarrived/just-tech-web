@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Menu from "./menu"
 import Footer from "./footer"
+import { ParallaxSection, ParallaxContainer } from "./utility/parallax"
 import "./layout.css"
 import "../fonts/just-arrived-style-guide-icons/css/icons.css"
 
@@ -22,9 +23,13 @@ const Layout = ({ children }) => (
       <div id="outer-container" style={{ height: '100%' }}>
         <Menu siteTitle={data.site.siteMetadata.title} />
         <main id="page-wrap">
-          {children}
+          <ParallaxContainer>
+            {children}
+            <ParallaxSection height="4.5em" zIndex={1}>
+              <Footer />
+            </ParallaxSection>
+          </ParallaxContainer>
         </main>
-        <Footer />
       </div>
     )}
   />

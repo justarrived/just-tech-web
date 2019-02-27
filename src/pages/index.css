@@ -2,6 +2,7 @@
     background: linear-gradient(#ff24bc30, #003a8960);
 }
 
-.react-parallax-bgimage {
-    object-fit: cover;
+html, body {
+    position: relative;
+    height: 100%;
 }

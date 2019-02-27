@@ -1,5 +1,6 @@
 import React from "react"
-import { Parallax } from "react-parallax"
+// import { Parallax } from "react-parallax"
+import { ParallaxSection as Section } from "../components/utility/parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -18,90 +19,76 @@ import WhoWeAre from "../components/whoWeAre";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`justtech`, `application`]} />
-    <Parallax
-      blur={1}
-      style={{ background: "#000" }}
-      bgImage={landingImg}
-      bgImageStyle={{ opacity: ".2" }}
-      bgImageAlt="tech"
-      strength={400}
-    >
-      <div className="image-shadow text-center py-32 text-white" >
-        <img src={logoIcon} alt="JustTech Logo Icon"/><br/>
-        <img src={logoText} alt="JustTech Logo Text" className="m-4"/>
-
+    <Section back={<img src={landingImg} alt="tech" />} zIndex={0}>
+      <div className="image-shadow text-center py-32 text-white h-full" >
+        <img src={logoIcon} alt="JustTech Logo Icon" /><br />
+        <img src={logoText} alt="JustTech Logo Text" className="m-4" />
         <p className="m-4">
           Matchar utrikesfödda topptalanger<br />
           inom IT med arbetsmarknaden
         </p>
-
         <div class="m-auto bg-white h-2 w-6"></div>
       </div>
-    </Parallax>
-    <PageBreaker />
+    </Section>
 
-    <div className="comp-section-container">
+    <Section zIndex={1} height="4.5em" style={{ marginTop: "-4.5em" }}>
+      <PageBreaker />
+    </Section>
+
+    <Section zIndex={1}>
+      <div className="comp-section-container">
         <h1 className="comp-section-header">
-            Vi hjälper er<br />
-            hitta topptalang och<br />
-            diversifiera era team
+          Vi hjälper er<br />
+          hitta topptalang och<br />
+          diversifiera era team
         </h1>
-    </div>
+      </div>
+    </Section>
 
-    <Parallax
-      bgImage={engineers}
-      bgImageStyle={{ height: "600px" }}
-      bgImageAlt="Engineers"
-      strength={100}
-    >
-      <div className="image-shadow" style={{ height: "400px" }} />
-    </Parallax>
+    <Section back={<img src={engineers} alt="Engineers" />} />
 
-    <div className="comp-section-container">
+    <Section zIndex={1}>
+      <div className="comp-section-container">
         <h1 className="comp-section-header">
-            Våra konsulter<br />
-            är experter inom<br />
-            Backend, Frontend, och Mobile
+          Våra konsulter<br />
+          är experter inom<br />
+          Backend, Frontend, och Mobile
         </h1>
-    </div>
+      </div>
+    </Section>
 
-    <Parallax
-      bgImage={computer}
-      bgImageStyle={{ height: "500px" }}
-      bgImageAlt="Laptop computer"
-      strength={100}
-    >
-      <div className="image-shadow" style={{ height: "400px" }} />
-    </Parallax>
+    <Section back={<img src={computer} alt="Laptop Computer" />} />
 
-    <div className="comp-section-container">
+    <Section zIndex={1}>
+      <div className="comp-section-container">
         <h1 className="comp-section-header">
-            Vi arbetar med<br />
-            tekniker och språk som<br />
-            C#, Java, JavaScript, PHP, Python, Ruby<br />
-            <small>React, React Native, Angular, Vue, Spring</small>
+          Vi arbetar med<br />
+          tekniker och språk som<br />
+          C#, Java, JavaScript, PHP, Python, Ruby<br />
+          <small>React, React Native, Angular, Vue, Spring</small>
         </h1>
-    </div>
+      </div>
+    </Section>
 
-    <Parallax
-      bgImage={code}
-      bgImageStyle={{ height: "500px" }}
-      bgImageAlt="Laptop computer"
-      strength={100}
-    >
-      <div className="image-shadow" style={{ height: "400px" }} />
-    </Parallax>
+    <Section back={<img src={code} alt="Code" />} />
 
-    <div className="comp-section-container">
+    <Section zIndex={1}>
+      <div className="comp-section-container">
         <h1 className="comp-section-header">
-            Tryggt och säkert för alla!
+          Tryggt och säkert för alla!
         </h1>
-    </div>
+      </div>
+    </Section>
 
-    <ContactUsForm />
+    <Section zIndex={1}>
+      <ContactUsForm />
+    </Section>
 
-    <WhoWeAre />
-  </Layout>
+    <Section zIndex={1}>
+      <WhoWeAre />
+    </Section>
+
+  </Layout >
 )
 
 export default IndexPage
