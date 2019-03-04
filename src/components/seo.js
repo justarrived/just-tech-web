@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
+import SplashImage from '../images/open-graph-splash.png';
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -33,6 +35,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:type`,
                 content: `website`,
+              },
+              {
+                property: `og:image`,
+                content: SplashImage,
               },
               {
                 name: `twitter:card`,
