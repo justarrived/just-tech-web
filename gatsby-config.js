@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `JustTech`,
-    description: `just tech`,
+    description: `JustTech - Vi hjälper er hitta topptalang och diversifiera era team.`,
     author: `@ehsan.heydari.yk`,
   },
   plugins: [
