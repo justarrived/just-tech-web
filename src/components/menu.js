@@ -6,8 +6,8 @@ import './menu.css'
 
 const HeaderMenu = ({ siteTitle }) => (
   <Menu
-    pageWrapId={'page-wrap'}
-    outerContainerId={'outer-container'}
+    pageWrapId='page-wrap'
+    outerContainerId='outer-container'
     width="16rem"
   >
     <div className="">
