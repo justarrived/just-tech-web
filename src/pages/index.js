@@ -38,7 +38,6 @@ const IndexPage = () => (
         <div class="m-auto bg-white h-2 w-6"></div>
       </div>
     </Parallax>
-    <PageBreaker />
 
     <div className="comp-section-container">
         <h1 className="comp-section-header">
