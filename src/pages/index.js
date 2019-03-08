@@ -60,7 +60,7 @@ const IndexPage = () => (
         <h1 className="comp-section-header">
             Våra konsulter<br />
             är experter inom<br />
-            Backend, Frontend, och Mobile
+            Frontend, Backend och Mobile
         </h1>
     </div>
 
@@ -77,8 +77,8 @@ const IndexPage = () => (
         <h1 className="comp-section-header">
             Vi arbetar med<br />
             tekniker och språk som<br />
-            C#, Java, JavaScript, PHP, Python, Ruby<br />
-            <small>React, React Native, Angular, Vue, Spring</small>
+            JavaScript, Python, Java, PHP, Ruby, C#<br />
+            <small>React, React Native, Angular, Vue, Node.js, Spring</small>
         </h1>
     </div>
 
