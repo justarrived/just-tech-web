@@ -20,25 +20,25 @@ const WhoWeAre = () => (
         <img className="rounded-full" src={Andreas} style={imageStyle} alt="Andreas König" />
 
         <h5>Andreas König</h5>
-        <h6>VD & Grundare</h6>
+        <h6>Sälj & Partnerskap</h6>
       </div>
       <div className="flex-1 sm:flex-2 p-4">
         <img className="rounded-full" src={Lova} style={imageStyle} alt="Lova Westlund" />
 
         <h5>Lova Westlund</h5>
-        <h6>Chief Operations Officer</h6>
+        <h6>Konsultansvarig</h6>
       </div>
       <div className="flex-1 sm:flex-2 p-4">
         <img className="rounded-full" src={Jonas} style={imageStyle} alt="Jonas Axelsson" />
 
         <h5>Jonas Axelsson</h5>
-        <h6>Chief Experience Officer</h6>
+        <h6>Rekryteringsansvarig</h6>
       </div>
       <div className="flex-1 sm:flex-2 p-4">
         <img className="rounded-full" src={Pontus} style={imageStyle} alt="Pontus Persson" />
 
         <h5>Pontus Persson</h5>
-        <h6>Chief Technical Officer</h6>
+        <h6>CTO</h6>
       </div>
     </div>
   </div>
