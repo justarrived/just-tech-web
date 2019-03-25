@@ -6,7 +6,24 @@ import Lova from "../images/profile-pictures/lova_westlund.jpg";
 import Pontus from "../images/profile-pictures/pontus_persson.jpg";
 
 
-const imageStyle = {filter: 'grayscale(100%)'};
+const imageStyle = { filter: 'grayscale(100%)' };
+const We = [{
+  name: "Andreas König",
+  image: Andreas,
+  positon: "Sälj & Partnerskap"
+}, {
+  name: "Lova Westlund",
+  image: Lova,
+  positon: "Konsultansvarig"
+}, {
+  name: "Jonas Axelsson",
+  image: Jonas,
+  positon: "Rekryteringsansvarig"
+}, {
+  name: "Pontus Persson",
+  image: Pontus,
+  positon: "CTO"
+}]
 
 
 const WhoWeAre = () => (
@@ -16,30 +33,14 @@ const WhoWeAre = () => (
     </h1>
 
     <div className="flex flex-wrap">
-      <div className="flex-1 sm:flex-2 p-4">
-        <img className="rounded-full" src={Andreas} style={imageStyle} alt="Andreas König" />
+      {We.map(({ name, image, position }) => (
+        <div className="w-100 sm:w-1/2 md:w-1/4 p-4">
+          <img className="rounded-full" src={image} style={imageStyle} alt={name} />
 
-        <h5>Andreas König</h5>
-        <h6>Sälj & Partnerskap</h6>
-      </div>
-      <div className="flex-1 sm:flex-2 p-4">
-        <img className="rounded-full" src={Lova} style={imageStyle} alt="Lova Westlund" />
-
-        <h5>Lova Westlund</h5>
-        <h6>Konsultansvarig</h6>
-      </div>
-      <div className="flex-1 sm:flex-2 p-4">
-        <img className="rounded-full" src={Jonas} style={imageStyle} alt="Jonas Axelsson" />
-
-        <h5>Jonas Axelsson</h5>
-        <h6>Rekryteringsansvarig</h6>
-      </div>
-      <div className="flex-1 sm:flex-2 p-4">
-        <img className="rounded-full" src={Pontus} style={imageStyle} alt="Pontus Persson" />
-
-        <h5>Pontus Persson</h5>
-        <h6>CTO</h6>
-      </div>
+          <h5>{name}</h5>
+          <h6>{position}</h6>
+        </div>
+      ))}
     </div>
   </div>
 )
