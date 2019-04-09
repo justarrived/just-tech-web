@@ -32,9 +32,9 @@ const IndexPage = () => (
         <img src={logoText} alt="JustTech Logo Text" className="m-4" />
 
         <p className="m-4">
-          Matchar utrikesfödda topptalanger
+          Vi levererar IT-konsulter och utvecklare
           <br />
-          inom IT med arbetsmarknaden
+          med internationell erfarenhet till Sveriges IT-bolag!
         </p>
 
         <div class="m-auto bg-white h-2 w-6" />
