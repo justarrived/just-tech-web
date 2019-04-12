@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 
-import Layout from "../components/layout";
+import Layout from "../components/layouts/Splash";
 import SEO from "../components/seo";
 import "./index.css";
 
