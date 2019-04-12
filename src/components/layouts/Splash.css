@@ -1,6 +1,6 @@
-@import url("../fonts/just-arrived-style-guide-icons/css/icons.css");
-@import url("./cssComponents/index.css");
-@import url("../fonts/fonts.css");
+@import url("../../fonts/just-arrived-style-guide-icons/css/icons.css");
+@import url("../cssComponents/index.css");
+@import url("../../fonts/fonts.css");
 
 @tailwind preflight;
 @tailwind components;
