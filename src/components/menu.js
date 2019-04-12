@@ -1,18 +1,14 @@
-import { Link } from "gatsby"
-import React from "react"
-import { slide as Menu } from 'react-burger-menu'
+import { Link } from "gatsby";
+import React from "react";
+import { slide as Menu } from "react-burger-menu";
 
-import './menu.css'
+import "./menu.css";
 
 const HeaderMenu = ({ siteTitle }) => (
-  <Menu
-    pageWrapId='page-wrap'
-    outerContainerId='outer-container'
-    width="16rem"
-  >
+  <Menu pageWrapId="page-wrap" outerContainerId="outer-container" width="16rem">
     <div className="">
       <div className="menu-item">
-        <Link className="menu-item-link" to="/" >
+        <Link className="menu-item-link" to="/">
           Hem
         </Link>
       </div>
@@ -40,6 +36,6 @@ const HeaderMenu = ({ siteTitle }) => (
       </div>
     </div>
   </Menu>
-)
+);
 
-export default HeaderMenu
+export default HeaderMenu;
