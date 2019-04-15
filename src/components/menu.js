@@ -4,7 +4,7 @@ import { slide as Menu } from "react-burger-menu";
 
 import "./menu.css";
 
-const HeaderMenu = ({ siteTitle }) => (
+const HeaderMenu = () => (
   <Menu pageWrapId="page-wrap" outerContainerId="outer-container" width="16rem">
     <div className="">
       <div className="menu-item">
