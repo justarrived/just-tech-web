@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
-import Menu from "../menu"
-import Footer from "../footer"
-import "./Splash.css"
+import Menu from "../menu";
+import Footer from "../footer";
+import "./Splash.css";
 
 const Layout = ({ children }) => (
   <div id="outer-container" style={{ height: '100%' }}>
@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired
+};
 
-export default Layout
+export default Layout;
