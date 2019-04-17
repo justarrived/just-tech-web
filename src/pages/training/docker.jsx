@@ -1,8 +1,8 @@
 import React from "react";
 
-import SEO from "../../components/seo";
-import DockerTrainingContent from "../../content/learn-docker";
 import Layout from "../../components/layouts/Default";
+import DockerTrainingContent from "../../content/learn-docker";
+import SEO from "../../components/seo";
 
 const DockerTrainingPage = () => (
   <Layout>
