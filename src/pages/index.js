@@ -3,7 +3,6 @@ import { Parallax } from "react-parallax";
 
 import Layout from "../components/layouts/Splash";
 import SEO from "../components/seo";
-import "./index.css";
 
 import landingImg from "../images/landing.png";
 import computer from "../images/blake-connally-373084-unsplash-1280.jpg";

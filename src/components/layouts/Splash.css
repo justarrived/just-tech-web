@@ -1,49 +1,9 @@
-@import url("../../fonts/just-arrived-style-guide-icons/css/icons.css");
-@import url("../cssComponents/index.css");
-@import url("../../fonts/fonts.css");
+@import url("../../base.css");
 
-@tailwind preflight;
-@tailwind components;
-@tailwind utilities;
+.image-shadow {
+  background: linear-gradient(#ff24bc30, #003a8960);
+}
 
-html {
-  font-family: OpenSans, sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-html { font: 112.5%/1.45em georgia, serif;
-  box-sizing: border-box;
-  overflow-y: scroll;
-}
-body {
-  font-family: OpenSans, Fontello;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-}
-h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 1.45rem;
-  padding: 0;
-  font-family: OpenSans, Museo;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
-}
-p {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding: 0;
-  margin-bottom: 1.45rem;
-}
-form {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding: 0;
-  margin-bottom: 1.45rem;
+.react-parallax-bgimage {
+  object-fit: cover;
 }
