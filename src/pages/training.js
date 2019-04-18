@@ -15,9 +15,7 @@ const TrainingPage = () => (
 
       <ul>
         <li>
-          <Link to="/training/docker">
-            Docker
-          </Link>
+          <Link to="/training/docker">Docker</Link>
         </li>
       </ul>
     </div>

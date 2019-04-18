@@ -3,13 +3,19 @@ import React from "react";
 import Menu from "../menu";
 import Footer from "../footer";
 
+import './Default.css';
+
 const Layout = ({ children }) => (
   <div id="outer-container" style={{ height: "100%" }}>
     <Menu siteTitle={{}} />
 
-    <header />
+    <header>Hej</header>
 
-    <main id="page-wrap">{children}</main>
+    <main className="layout-default">
+        <div className="content">
+            {children}
+        </div>
+    </main>
 
     <Footer />
   </div>
