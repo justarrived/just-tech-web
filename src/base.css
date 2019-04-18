@@ -15,6 +15,7 @@ html {
     overflow-y: scroll;
 }
 body {
+    @apply bg-black;
     font-family: OpenSans, Fontello;
     font-weight: normal;
     word-wrap: break-word;
