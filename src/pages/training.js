@@ -15,6 +15,9 @@ const TrainingPage = () => (
 
       <ul>
         <li>
+          <Link to="/training/continuous-deployment">Continous Deployment</Link>
+        </li>
+        <li>
           <Link to="/training/docker">Docker</Link>
         </li>
       </ul>
