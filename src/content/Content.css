@@ -1,0 +1,22 @@
+.content {
+    font-size: 12pt;
+}
+
+.content .anchor svg {
+    display: none;
+}
+
+.content a {
+    color: #3693ff;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+    margin: 2rem 0 1rem 0;
+}
+
+.content ul li p {
+    margin-bottom: 0.2rem;
+}

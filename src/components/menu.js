@@ -14,6 +14,12 @@ const HeaderMenu = () => (
       </div>
 
       <div className="menu-item">
+        <Link className="menu-item-link" to="/training">
+          Training
+        </Link>
+      </div>
+
+      <div className="menu-item">
         <a
           href="https://github.com/justarrived/just-tech-web/wiki/"
           rel="noopener noreferrer"

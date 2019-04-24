@@ -6,7 +6,7 @@ import Footer from "../footer";
 import "./Splash.css";
 
 const Layout = ({ children }) => (
-  <div id="outer-container" style={{ height: '100%' }}>
+  <div>
     <Menu/>
     <main id="page-wrap">
       {children}

@@ -4,16 +4,16 @@ import SEO from "../../components/seo";
 import Content from '../../content/Content';
 import Layout from "../../components/layouts/Default";
 
-class DockerTrainingPage extends Component {
+class CDTrainingPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Docker Training" keywords={[`justtech`, `application`]} />
+        <SEO title="Continous Deployment Training" keywords={[`justtech`, `application`]} />
 
-        <Content name="docker"/>
+        <Content name="continuous-deployment"/>
       </Layout>
     );
   }
 }
 
-export default DockerTrainingPage;
+export default CDTrainingPage;
