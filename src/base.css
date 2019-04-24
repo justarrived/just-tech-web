@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 html {
-    font-family: OpenSans, sans-serif;
+    font-family: Museo, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font: 112.5%/1.45em georgia, serif;
@@ -16,7 +16,7 @@ html {
 }
 body {
     @apply bg-black;
-    font-family: OpenSans, Fontello;
+    font-family: Museo, Fontello;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
