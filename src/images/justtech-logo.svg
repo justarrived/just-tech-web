@@ -1,0 +1,13 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="200" width="282.843" height="282.843" rx="68" transform="rotate(45 200 0)" fill="#45818E"/>
+<rect x="286.102" y="199.859" width="98.076" height="20.9891" rx="10.4946" transform="rotate(135 286.102 199.859)" fill="white" stroke="white" stroke-width="6"/>
+<rect x="271.26" y="214.701" width="98.076" height="20.9891" rx="10.4946" transform="rotate(-135 271.26 214.701)" fill="white" stroke="white" stroke-width="6"/>
+<rect x="112.681" y="199.859" width="98.076" height="20.9891" rx="10.4946" transform="rotate(-45 112.681 199.859)" fill="white" stroke="white" stroke-width="6"/>
+<rect x="127.522" y="185.018" width="98.076" height="20.9891" rx="10.4946" transform="rotate(45 127.522 185.018)" fill="white" stroke="white" stroke-width="6"/>
+<rect x="309.5" y="243.5" width="14" height="87" transform="rotate(180 309.5 243.5)" fill="white" stroke="white" stroke-width="3"/>
+<rect x="309.5" y="243.5" width="29" height="13" transform="rotate(180 309.5 243.5)" fill="white" stroke="white" stroke-width="3"/>
+<rect x="309.5" y="169.5" width="29" height="13" transform="rotate(180 309.5 169.5)" fill="white" stroke="white" stroke-width="3"/>
+<rect x="89.5" y="156.5" width="14" height="87" fill="white" stroke="white" stroke-width="3"/>
+<rect x="89.5" y="156.5" width="29" height="13" fill="white" stroke="white" stroke-width="3"/>
+<rect x="89.5" y="230.5" width="29" height="13" fill="white" stroke="white" stroke-width="3"/>
+</svg>
