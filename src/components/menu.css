@@ -6,7 +6,7 @@
      text-decoration: none;
  }
  .menu-item-link:hover {
-     @apply text-cerise;
+     color: #45818e;
  }
 .bm-burger-button {
   @apply fixed; 

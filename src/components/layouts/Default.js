@@ -2,7 +2,7 @@ import React from "react";
 
 import Menu from "../menu";
 import Footer from "../footer";
-import logoIcon from "../../images/logo.png";
+import logoIcon from "../../images/justtech-logo.svg";
 
 import './Default.css';
 
