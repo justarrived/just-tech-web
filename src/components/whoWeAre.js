@@ -4,8 +4,14 @@ import Andreas from "../images/profile-pictures/andreas_konig.jpg";
 import Jonas from "../images/profile-pictures/jonas_axelsson.jpg";
 import Lova from "../images/profile-pictures/lova_westlund.jpg";
 import Pontus from "../images/profile-pictures/pontus_persson.jpg";
+import Fanny from "../images/profile-pictures/fanny_horal.jpg";
+import Sofi from "../images/profile-pictures/sofi_fridland.jpg";
 
-const imageStyle = { filter: "grayscale(100%)" };
+const imageStyle = {
+  filter: "grayscale(100%)",
+  objectFit: "cover",
+};
+
 const We = [
   {
     name: "Andreas König",
@@ -26,6 +32,16 @@ const We = [
     name: "Pontus Persson",
     image: Pontus,
     position: "CTO"
+  },
+  {
+    name: "Fanny Horal",
+    image: Fanny,
+    position: "Konsultchef"
+  },
+  {
+    name: "Sofi Fridland",
+    image: Sofi,
+    position: "Client Manager"
   }
 ];
 
@@ -33,9 +49,9 @@ const WhoWeAre = () => (
   <div className="comp-section-container text-white">
     <h1 className="comp-section-header">Vilka vi är</h1>
 
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-around">
       {We.map(({ name, image, position }) => (
-        <div className="w-100 sm:w-1/2 md:w-1/4 p-4">
+        <div className="w-100 sm:w-1/2 md:w-1/3 p-4">
           <img
             className="rounded-full"
             src={image}
