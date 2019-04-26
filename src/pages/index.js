@@ -25,7 +25,7 @@ const IndexPage = () => (
       strength={400}
     >
       <div className="image-shadow text-center py-32 text-white">
-        <img src={logoIcon} alt="JustTech Logo Icon" />
+        <img src={logoIcon} alt="JustTech Logo Icon" className="w-64" />
         <br />
         <img src={logoText} alt="JustTech Logo Text" className="m-4" />
 
