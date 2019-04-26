@@ -8,8 +8,8 @@ import landingImg from "../images/landing.png";
 import computer from "../images/blake-connally-373084-unsplash-1280.jpg";
 import engineers from "../images/andrew-neel-237802-unsplash-1280.jpg";
 import code from "../images/focused-female-engineer-working-at-laptop.jpg";
-import logoIcon from "../images/justtech-logo.svg";
-import logoText from "../images/justtech-text-logo.svg";
+import logoIcon from "../images/branding/justtech-logo.svg";
+import logoText from "../images/branding/justtech-text-logo.svg";
 import ContactUsForm from "../components/contactusForm";
 import WhoWeAre from "../components/whoWeAre";
 
