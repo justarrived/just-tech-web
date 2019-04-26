@@ -10,22 +10,22 @@ const We = [
   {
     name: "Andreas König",
     image: Andreas,
-    positon: "Sälj & Partnerskap"
+    position: "Sälj & Partnerskap"
   },
   {
     name: "Lova Westlund",
     image: Lova,
-    positon: "Konsultansvarig"
+    position: "Konsultansvarig"
   },
   {
     name: "Jonas Axelsson",
     image: Jonas,
-    positon: "Rekryteringsansvarig"
+    position: "Rekryteringsansvarig"
   },
   {
     name: "Pontus Persson",
     image: Pontus,
-    positon: "CTO"
+    position: "CTO"
   }
 ];
 
