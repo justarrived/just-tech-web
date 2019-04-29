@@ -108,7 +108,11 @@ const IndexPage = () => (
 
     <ContactUsForm />
 
-    <WhoWeAre />
+    <div className="comp-section-container text-white">
+      <h1 className="comp-section-header text-base sm:text-lg md:text-lg lg:text-2xl xl:text-3xl">Vilka vi är</h1>
+
+      <WhoWeAre />
+    </div>
   </Layout>
 );
 
