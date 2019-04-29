@@ -46,24 +46,20 @@ const We = [
 ];
 
 const WhoWeAre = () => (
-  <div className="comp-section-container text-white">
-    <h1 className="comp-section-header">Vilka vi är</h1>
+  <div className="flex flex-wrap justify-around">
+    {We.map(({ name, image, position }) => (
+      <div className="w-100 sm:w-1/2 md:w-1/3 p-4">
+        <img
+          className="rounded-full"
+          src={image}
+          style={imageStyle}
+          alt={name}
+        />
 
-    <div className="flex flex-wrap justify-around">
-      {We.map(({ name, image, position }) => (
-        <div className="w-100 sm:w-1/2 md:w-1/3 p-4">
-          <img
-            className="rounded-full"
-            src={image}
-            style={imageStyle}
-            alt={name}
-          />
-
-          <h5>{name}</h5>
-          <h6>{position}</h6>
-        </div>
-      ))}
-    </div>
+        <h5>{name}</h5>
+        <h6>{position}</h6>
+      </div>
+    ))}
   </div>
 );
 
