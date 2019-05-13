@@ -34,7 +34,7 @@ const ContactusForm = () => (
           För mer information kontakta Andreas König:
         </p>
         <p className="m-0">
-          <span>andreas@justarrived.se</span> | 0733-86 86 56
+          <span>andreas@justtech.se</span> | 0733-86 86 56
         </p>
       </div>
       <div className="lg:w-1/2 w-full lg:pl-20 lg:pr-20 pl-2 py-3">
