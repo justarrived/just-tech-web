@@ -29,11 +29,6 @@ const We = [
     position: "Rekryteringsansvarig"
   },
   {
-    name: "Pontus Persson",
-    image: Pontus,
-    position: "CTO"
-  },
-  {
     name: "Fanny Horal",
     image: Fanny,
     position: "Konsultchef"
