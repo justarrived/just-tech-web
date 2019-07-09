@@ -40,6 +40,16 @@ const HeaderMenu = () => (
           JustArrived
         </a>
       </div>
+      <div className="menu-item">
+        <a
+          href="https://thehub.se/jobs/company/just-tech/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="menu-item-link"
+        >
+          Jobs
+        </a>
+      </div>
     </div>
   </Menu>
 );
