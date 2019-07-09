@@ -1,6 +1,6 @@
 # JustTech Web Site
 
-This repo contains the website of JustTech.
+This repo contains the website of [JustTech](http://justtech.se).
 
 
 ## Develop
